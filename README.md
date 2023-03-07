@@ -25,6 +25,7 @@ enfoque son pruebas web y API.
 ## Gestor de dependecias
 Para administrar las dependencias de tu proyecto de automatización puedes utilizar:
 - [Maven](https://maven.apache.org/): Se trata de un archivo llamado `POM.xml`, donde se utilizan etiquetas XML para agregar dependecias, complementos y demás configuración requerida. A continuación, se muestra un ejemplo:
+  <br>
   <img alt="Archivo base POM" src="images/pomBaseMaven.png" width="450" height="110">
 - [Gradle](https://gradle.org/): Gradle por su parte centra la información en un archivo llamado `build.gradle`, donde puede utilizarse lenguaje Groovy o Klotin para agregar las dependencias, plugins y otras configuraciones del proyecto.
   <img alt="Logo Reliquias del Software" src="images/buildBaseGradle.png" width="450" height="650">
