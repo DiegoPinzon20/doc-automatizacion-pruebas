@@ -12,14 +12,31 @@ enfoque son pruebas web y API.
 
 ## Tabla de contenidos
 
+## Pre-requisitos
+- [Java](https://www.oracle.com/java/technologies/downloads/archive/): Tener instalado el JDK de java en su versión mínima de 8 o superior.
+- [Variables de entorno](): Configurar las variables de entorno para Java y el gestor de dependecias (Gradle o maven).
+- [IDE](): Tener instalado un entorno de desarrollo para proyectos Java como [Eclipse](https://www.eclipse.org/downloads/) o [IntelliJ IDEA](https://www.jetbrains.com/es-es/idea/). Se recomienda el uso de este último.
+- [Plugins](): Instalar en su entorno de desarrollo los siguiente complementos:
+  - Gherkin
+  - Cucumber for Java
+  - Lombok
+  - Sonarlint
+
 ## Gestor de dependecias
+Para administrar las dependencias de tu proyecto de automatización puedes utilizar:
+- [Maven](https://maven.apache.org/): Se trata de un archivo llamado `POM.xml`, donde se utilizan etiquetas XML para agregar dependecias, complementos y demás configuración requerida. A continuación, se muestra un ejemplo:
+  <img alt="Archivo base POM" src="images/pombaseMaven.png" width="450" height="110">
+- [Gradle](https://gradle.org/): Gradle por su parte centra la información en un archivo llamado `build.gradle`, donde puede utilizarse lenguaje Groovy o Klotin para agregar las dependencias, plugins y otras configuraciones del proyecto.
+  <img alt="Logo Reliquias del Software" src="images/buildBaseGradle.png" width="450" height="650">
+
+Para efectos de este instructivo se utilizará como administrador de dependecias Gradle.
 
 ## Estructura base del proyecto
 
 Para iniciar un proyecto de automatización se deben tener una estructura básica de archivos dentro de un proyecto base
 de java.
 
-<img alt="Logo Reliquias del Software" src="images/archivos_base.png" width="562" height="450">
+<img alt="Archivos base para proyecto automatización" src="images/archivos_base.png" width="562" height="450">
 
 Los archivos adicionales que deben acompañar el proyecto son:
 
