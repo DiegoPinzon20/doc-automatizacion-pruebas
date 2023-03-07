@@ -1,4 +1,4 @@
-<a href="https://www.youtube.com/@reliquiasdelsoftware"><center><img alt="Logo Reliquias del Software" src="logo.png" width="150" height="150"></center></a>
+<center><a href="https://www.youtube.com/@reliquiasdelsoftware"><img alt="Logo Reliquias del Software" src="logo.png" width="150" height="150"></a></center>
 
 # Documentación automatizacion de pruebas de softaware
 Este repositorio contiene información clave para iniciar con la automatizacion de pruebas de software usando Java, Serenity BDD y Cucumber. Además encontrarás detalles de implementación usando patrones de diseño POM y Screenplay. El enfoque son pruebas web y API.
