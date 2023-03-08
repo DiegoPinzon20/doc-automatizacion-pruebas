@@ -76,8 +76,10 @@ este patrón es la forma en que se organiza el proyecto y el enfoque que se le d
 mapeados y sus respectivas interacciones. Una interacción puede ser ingresar un valor en un campo o completar un formulario, también puedes a través
 de interacciones preguntar por el estado del sistema, si se levantó el mensaje esperado, etc.
   
-  A continuación, se muestra la estructura es forma más básica un proyecto de automatización en Java aplicando el patrón:
-  
+  A continuación, se muestra la estructura en forma más básica un proyecto de automatización en Java aplicando el patrón:
+  <br>
+  <img alt="Proyecto base usando Screenplay" src="images/pom-base.png" width="410" height="600">
+  <br>
   Es importante mencionar que para automatizar pruebas de aceptación usando este patrón y Serenity BDD, no es necesario agregar las dependencias
   de Screenplay(`serenity-screenplay`) en el archivo de administración de dependencias de su gestor del proyecto.
 
