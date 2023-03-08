@@ -1,7 +1,11 @@
 <a target="_blank" href="https://www.youtube.com/@reliquiasdelsoftware">
-  <p style="text-align:center;">
+  <p style="text-align:left;">
     <img alt="Logo Reliquias del Software" src="images/logo.png" width="150" height="200">
   </p>
+</a>
+<div>
+<a href="https://www.youtube.com/@reliquiasdelsoftware" target="_blank">
+  <img style="padding-left:25px;" src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white">
 </a>
 
 # Documentación automatizacion de pruebas de softaware
