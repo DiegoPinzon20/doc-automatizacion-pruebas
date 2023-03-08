@@ -13,6 +13,12 @@ Serenity BDD y Cucumber. Además encontrarás detalles de implementación usando
 enfoque son pruebas web y API.
 
 ## Tabla de contenidos
+1. [Pre-requisitos](#pre-requisitos)
+2. [Gestor de dependencias](#gestor-de-dependencias)
+3. [Estructura base del proyecto](#estructura-base-del-proyecto)
+4. [Patrones de diseño](#patrones-de-diseño)
+5. [Autor](#autor)
+6. [Copyright](#copyright)
 
 ## Pre-requisitos
 - [Java](https://www.oracle.com/java/technologies/downloads/archive/): Tener instalado el JDK de java en su versión mínima de 8 o superior.
@@ -24,7 +30,7 @@ enfoque son pruebas web y API.
   - Lombok
   - Sonarlint
 
-## Gestor de dependecias
+## Gestor de dependencias
 Para administrar las dependencias de tu proyecto de automatización puedes utilizar:
 - [Maven](https://maven.apache.org/): Se trata de un archivo llamado `POM.xml`, donde se utilizan etiquetas XML para agregar dependecias, complementos y demás configuración requerida. A continuación, se muestra un ejemplo:
   <br>
@@ -67,11 +73,10 @@ Los archivos adicionales que deben acompañar el proyecto son:
 - [Page Object Model (POM)]():
 - [Screenplay]():
 
-## Autor 👨 ([emoji key](https://allcontributors.org/docs/en/emoji-key))
+## Autor
 
 [![Information](https://github-stats-alpha.vercel.app/api?username=DiegoPinzon20 "Information")](https://github-stats-alpha.vercel.app/api?username=DiegoPinzon20 "Information")
 
 ## Copyright
-
 Publicado bajo la Licencia MIT, ver el
 archivo [LICENSE](https://github.com/DiegoPinzon20/doc-automatizacion-pruebas/blob/master/LICENSE).
