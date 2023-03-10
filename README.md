@@ -82,6 +82,9 @@ de interacciones preguntar por el estado del sistema, si se levantó el mensaje 
   <br>
   Es importante mencionar que para automatizar pruebas de aceptación usando este patrón y Serenity BDD, no es necesario agregar las dependencias
   de Screenplay(`serenity-screenplay`) en el archivo de administración de dependencias de su gestor del proyecto.
+  <br>
+  <img alt="Proyecto base usando Screenplay" src="images/pom_estructura.png" width="1000" height="700">
+  <br>
 
 - [Screenplay](): Screenplay es la evolución del patrón POM, donde se le ha cambiado totalmente el enfoque de las pruebas de aceptación que se automatizan.
   Con este patrón la prueba ya no se centra en páginas e interacciones sino en el comportamiento del usuario al interactuar con el Sistema Bajo Prueba (SUT).
